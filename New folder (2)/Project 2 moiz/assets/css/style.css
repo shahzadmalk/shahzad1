@@ -1,0 +1,264 @@
+.bg{
+    background-image: url("../img/bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.cards{
+    background-color: rgba(0, 0, 0, 0.6);
+
+}
+
+  .icon-slider-container {
+    width:100vw;
+    overflow: hidden;
+  }
+
+  .icon-slider {
+    display: flex;
+    animation: slideAnimation 8s linear infinite;
+  }
+
+  .icon-slide img{
+    width: 100px;
+  }
+
+  .icon-slide {
+    flex: 0 0 100px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-right: 100px;
+  }
+
+  @keyframes slideAnimation {
+    0% {
+      transform: translateX(0);
+    }
+    20% {
+      transform: translateX(-100px);
+    }
+    40% {
+      transform: translateX(-200px);
+    }
+    60% {
+      transform: translateX(-300px);
+    }
+    80% {
+      transform: translateX(-400px);
+    }
+    100% {
+      transform: translateX(0);
+    }
+  }
+
+
+.slider-container {
+    width: 100vw;
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+}
+
+.slider {
+    display: flex;
+    transition: transform 0.4s ease-in-out;
+}
+
+.slides {
+    display: flex;
+}
+
+.slide {
+    flex: 0 0 100%;
+    gap: 2rem;
+    display: flex;
+}
+
+.profile-card {
+    flex: 0 0 20%;
+    text-align: center;
+    width: 20%;
+    padding: 20px;
+    box-sizing: border-box;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin: 10px;
+}
+
+.star {
+    color: #f0ad4e;
+}
+
+.stars{
+    display: flex;
+    font-size: 30px;
+    justify-content:center ;
+}
+
+.prev,
+.next {
+    background-color: #f0f0f0;
+    color: #444;
+    font-size: 16px;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    margin: 5px;
+}
+
+nav a:hover{
+    color: gold !important;
+}
+
+nav .btn:hover{
+    background-color: goldenrod !important;
+    color: black !important;
+}
+
+
+.cards .card:hover{
+    border: 2px goldenrod solid !important;
+    transition: ease-in-out 0.35s;
+}
+
+.prev:hover,
+.next:hover {
+    background-color: #ddd;
+}
+
+
+
+.profile-card:hover{
+    color: white;
+    transition: ease-in-out 0.3s;
+    background-color: firebrick;
+}
+
+.profile-card:hover p{
+    color: white !important;
+}
+
+.services .card:hover{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    transition: ease-in-out 0.35s;
+}
+
+.action .btn:hover{
+    background-color: goldenrod;
+    transition: ease-in-out 0.35s;
+
+}
+.hover-icons {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    background-color:#ccc;
+    transform: translate(-50%, -50%);
+    display: none; /* Hide icons by default */
+    opacity: .85;
+  }
+
+  .team-card:hover .hover-icons {
+    display: flex; /* Show icons on hover */
+  }
+
+  .hover-icons i {
+    font-size: 24px;
+    margin: 5px;
+    color: silver; /* Set the icon color to silver/white */
+  }
+
+  .team-card:hover .hover-icons i {
+    color: white; /* Change icon color on hover */
+  }
+
+  .portfolio img:hover {
+    transform: scale(1.1);
+    transition: .5s ease-in-out; /* Add transition for color change */
+
+  }
+
+.foot-icons i:hover{
+    background-color: rgb(203, 175, 15) !important;
+
+}
+
+footer a:hover{
+    color: gold !important;
+    text-decoration: none;
+}
+
+#backToTopBtn {
+    background-color: goldenrod;
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    display: none;
+  }
+/* Small devices (landscape phones) */
+@media (min-width:575.98px) and (max-width: 632.98px) {
+    .slide {
+        flex-wrap: nowrap;
+    }
+
+    .profile-card {
+        flex: 0 0 40%;
+        width: 40%;
+    }
+}
+
+
+/* Small devices (landscape phones) */
+@media (min-width:632.98px) and (max-width: 767.98px) {
+    .slide {
+        flex-wrap: nowrap;
+    }
+
+
+    .profile-card {
+        margin-left: 80px !important;
+        flex: 0 0 40%;
+        width: 40%;
+    }
+}
+
+/* Medium devices (tablets) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .slide {
+        flex-wrap: nowrap;
+    }
+
+    .profile-card {
+        flex: 0 0 30%;
+        width: 30%;
+    }
+}
+
+/* Large devices (small laptops and desktops) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    .slide {
+        flex-wrap: nowrap;
+    }
+
+    .profile-card {
+        flex: 0 0 25%;
+        width: 25%;
+    }
+}
+
+
+
+/* Extra-large devices (large laptops and desktops) */
+@media (min-width: 1200px) {
+    .slide {
+        flex-wrap: nowrap;
+    }
+
+    .profile-card {
+        flex: 0 0 20%;
+        width: 20%;
+    }
+}

@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <style>
+    table {
+      font-family: arial, sans-serif;
+      border-collapse: collapse;
+      width: 100%;
+    }
+
+    td,
+    th {
+      border: 1px solid #dddddd;
+      text-align: left;
+      padding: 9px;
+    }
+
+    tr:nth-child(even) {
+      background-color: #dddddd;
+    }
+
+    /*  */
+    .grid-container {
+      display: grid;
+      column-gap: 50px;
+      grid-template-columns: auto auto;
+
+      padding: 10px;
+     
+    }
+
+    .grid-item {
+
+      /* border: 1px solid rgba(0, 0, 0, 0.8); */
+      padding: 0px;
+      margin-top: 50px;
+      /* font-size: 20px; */
+      text-align: center;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="grid-container" style="margin-top:30px ;">
+    <div class="grid-item">
+
+      <div style="width:600px; margin-left: 90px">
+        <h2>OCM Support System</h2>
+        <table>
+
+          <tr>
+            <th>Client Name: <span>Shahzad imranali </span> </th>
+          </tr>
+
+          <tr>
+            <th id="demo">Date: <span>2/12/23</span> </th>
+          </tr>
+
+          <script>
+            const d = new Date();
+            document.getElementById("demo").innerHTML = d;
+
+          </script>
+
+        </table>
+
+        <!-- <button class="button" style="margin-left: 900px; margin-bottom: 10px; background-color: rgb(249, 58, 11);;">Print</button> -->
+
+
+      </div>
+      <br>
+
+    </div>
+    <div class="grid-item"><img src="f4978c68-751e-48c5-b076-8ccc5b88d5f7-removebg-preview.png" alt="" width="120px"
+        style=" ;"></div>
+
+
+  </div>
+
+  <form action="" style="margin-left: 100px; margin-top: -50px;">
+
+
+
+
+    <br><br><br>
+    <div style="width:90%;">
+      <table class="">
+        <tr>
+          <th>Ticket Id</th>
+          <th>Subject</th>
+          <th>Ticket Generate</th>
+          <th>Ticket Complete</th>
+          <th>Priority</th>
+        </tr>
+        <tr>
+          <td>Alfreds Futterkiste</td>
+          <td>Maria Anders</td>
+          <td>Germany</td>
+          <td>Maria Anders</td>
+          <td>Germany</td>
+        </tr>
+
+        <tr>
+          <td>Ernst Handel</td>
+          <td>Roland Mendel</td>
+          <td>Austria</td>
+          <td>Island Trading</td>
+          <td>Helen Bennett</td>
+
+        </tr>
+
+
+
+      </table>
+    </div>
+  </form>
+</body>
+
+</html>

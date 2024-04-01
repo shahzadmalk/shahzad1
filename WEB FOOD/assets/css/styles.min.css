@@ -1,0 +1,772 @@
+@font-face {
+    font-family: 'Abril Fatface';
+    src: url(/assets/fonts/zOL64pLDlL1D99S8g8PtiKchq-lmjdLh.woff2?h=a50067293c7c2ec4906e75040bfcade8) format('woff2');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+    unicode-range: U+0100-02AF, U+0304, U+0308, U+0329, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF
+}
+
+@font-face {
+    font-family: 'Abril Fatface';
+    src: url(/assets/fonts/zOL64pLDlL1D99S8g8PtiKchq-dmjQ.woff2?h=a50067293c7c2ec4906e75040bfcade8) format('woff2');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD
+}
+
+@font-face {
+    font-family: 'Alegreya Sans SC';
+    src: url(/assets/fonts/mtGh4-RGJqfMvt7P8FUr0Q1j-Hf1BkRl9xxA.woff2?h=17f08127e07beede2db63d565b02f811) format('woff2');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+    unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F
+}
+
+@font-face {
+    font-family: 'Alegreya Sans SC';
+    src: url(/assets/fonts/mtGh4-RGJqfMvt7P8FUr0Q1j-Hf1Bk1l9xxA.woff2?h=17f08127e07beede2db63d565b02f811) format('woff2');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+    unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116
+}
+
+@font-face {
+    font-family: 'Alegreya Sans SC';
+    src: url(/assets/fonts/mtGh4-RGJqfMvt7P8FUr0Q1j-Hf1BkVl9xxA.woff2?h=17f08127e07beede2db63d565b02f811) format('woff2');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+    unicode-range: U+1F00-1FFF
+}
+
+@font-face {
+    font-family: 'Alegreya Sans SC';
+    src: url(/assets/fonts/mtGh4-RGJqfMvt7P8FUr0Q1j-Hf1Bkpl9xxA.woff2?h=17f08127e07beede2db63d565b02f811) format('woff2');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+    unicode-range: U+0370-03FF
+}
+
+@font-face {
+    font-family: 'Alegreya Sans SC';
+    src: url(/assets/fonts/mtGh4-RGJqfMvt7P8FUr0Q1j-Hf1BkZl9xxA.woff2?h=17f08127e07beede2db63d565b02f811) format('woff2');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+    unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB
+}
+
+@font-face {
+    font-family: 'Alegreya Sans SC';
+    src: url(/assets/fonts/mtGh4-RGJqfMvt7P8FUr0Q1j-Hf1Bkdl9xxA.woff2?h=17f08127e07beede2db63d565b02f811) format('woff2');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+    unicode-range: U+0100-02AF, U+0304, U+0308, U+0329, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF
+}
+
+@font-face {
+    font-family: 'Alegreya Sans SC';
+    src: url(/assets/fonts/mtGh4-RGJqfMvt7P8FUr0Q1j-Hf1Bkll9w.woff2?h=17f08127e07beede2db63d565b02f811) format('woff2');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD
+}
+
+@font-face {
+    font-family: Alice;
+    src: url(/assets/fonts/OpNCnoEEmtHa6GcDrg7shw.woff2?h=70858047ca643f5d0122765ec3a70453) format('woff2');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+    unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F
+}
+
+@font-face {
+    font-family: Alice;
+    src: url(/assets/fonts/OpNCnoEEmtHa6GcKrg7shw.woff2?h=70858047ca643f5d0122765ec3a70453) format('woff2');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+    unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116
+}
+
+@font-face {
+    font-family: Alice;
+    src: url(/assets/fonts/OpNCnoEEmtHa6GcArg7shw.woff2?h=70858047ca643f5d0122765ec3a70453) format('woff2');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+    unicode-range: U+0100-02AF, U+0304, U+0308, U+0329, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF
+}
+
+@font-face {
+    font-family: Alice;
+    src: url(/assets/fonts/OpNCnoEEmtHa6GcOrg4.woff2?h=70858047ca643f5d0122765ec3a70453) format('woff2');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD
+}
+
+@font-face {
+    font-family: 'DM Serif Display';
+    src: url(/assets/fonts/-nFnOHM81r4j6k0gjAW3mujVU2B2G_5x0ujy.woff2?h=069064b951f0820c5ebe150e344bf402) format('woff2');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+    unicode-range: U+0100-02AF, U+0304, U+0308, U+0329, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF
+}
+
+@font-face {
+    font-family: 'DM Serif Display';
+    src: url(/assets/fonts/-nFnOHM81r4j6k0gjAW3mujVU2B2G_Bx0g.woff2?h=069064b951f0820c5ebe150e344bf402) format('woff2');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD
+}
+
+@font-face {
+    font-family: Roboto;
+    src: url(/assets/fonts/KFOlCnqEu92Fr1MmSU5fCRc4EsA.woff2?h=14f0e54538e9712e8f2dd0c207f76b4a) format('woff2');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+    unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F
+}
+
+@font-face {
+    font-family: Roboto;
+    src: url(/assets/fonts/KFOlCnqEu92Fr1MmSU5fABc4EsA.woff2?h=14f0e54538e9712e8f2dd0c207f76b4a) format('woff2');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+    unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116
+}
+
+@font-face {
+    font-family: Roboto;
+    src: url(/assets/fonts/KFOlCnqEu92Fr1MmSU5fCBc4EsA.woff2?h=14f0e54538e9712e8f2dd0c207f76b4a) format('woff2');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+    unicode-range: U+1F00-1FFF
+}
+
+@font-face {
+    font-family: Roboto;
+    src: url(/assets/fonts/KFOlCnqEu92Fr1MmSU5fBxc4EsA.woff2?h=14f0e54538e9712e8f2dd0c207f76b4a) format('woff2');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+    unicode-range: U+0370-03FF
+}
+
+@font-face {
+    font-family: Roboto;
+    src: url(/assets/fonts/KFOlCnqEu92Fr1MmSU5fCxc4EsA.woff2?h=14f0e54538e9712e8f2dd0c207f76b4a) format('woff2');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+    unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB
+}
+
+@font-face {
+    font-family: Roboto;
+    src: url(/assets/fonts/KFOlCnqEu92Fr1MmSU5fChc4EsA.woff2?h=14f0e54538e9712e8f2dd0c207f76b4a) format('woff2');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+    unicode-range: U+0100-02AF, U+0304, U+0308, U+0329, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF
+}
+
+@font-face {
+    font-family: Roboto;
+    src: url(/assets/fonts/KFOlCnqEu92Fr1MmSU5fBBc4.woff2?h=14f0e54538e9712e8f2dd0c207f76b4a) format('woff2');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD
+}
+
+@font-face {
+    font-family: Roboto;
+    src: url(/assets/fonts/KFOmCnqEu92Fr1Mu72xKOzY.woff2?h=14f0e54538e9712e8f2dd0c207f76b4a) format('woff2');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+    unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F
+}
+
+@font-face {
+    font-family: Roboto;
+    src: url(/assets/fonts/KFOmCnqEu92Fr1Mu5mxKOzY.woff2?h=14f0e54538e9712e8f2dd0c207f76b4a) format('woff2');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+    unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116
+}
+
+@font-face {
+    font-family: Roboto;
+    src: url(/assets/fonts/KFOmCnqEu92Fr1Mu7mxKOzY.woff2?h=14f0e54538e9712e8f2dd0c207f76b4a) format('woff2');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+    unicode-range: U+1F00-1FFF
+}
+
+@font-face {
+    font-family: Roboto;
+    src: url(/assets/fonts/KFOmCnqEu92Fr1Mu4WxKOzY.woff2?h=14f0e54538e9712e8f2dd0c207f76b4a) format('woff2');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+    unicode-range: U+0370-03FF
+}
+
+@font-face {
+    font-family: Roboto;
+    src: url(/assets/fonts/KFOmCnqEu92Fr1Mu7WxKOzY.woff2?h=14f0e54538e9712e8f2dd0c207f76b4a) format('woff2');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+    unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB
+}
+
+@font-face {
+    font-family: Roboto;
+    src: url(/assets/fonts/KFOmCnqEu92Fr1Mu7GxKOzY.woff2?h=14f0e54538e9712e8f2dd0c207f76b4a) format('woff2');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+    unicode-range: U+0100-02AF, U+0304, U+0308, U+0329, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF
+}
+
+@font-face {
+    font-family: Roboto;
+    src: url(/assets/fonts/KFOmCnqEu92Fr1Mu4mxK.woff2?h=14f0e54538e9712e8f2dd0c207f76b4a) format('woff2');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD
+}
+
+@font-face {
+    font-family: Roboto;
+    src: url(/assets/fonts/KFOlCnqEu92Fr1MmWUlfCRc4EsA.woff2?h=14f0e54538e9712e8f2dd0c207f76b4a) format('woff2');
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+    unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F
+}
+
+@font-face {
+    font-family: Roboto;
+    src: url(/assets/fonts/KFOlCnqEu92Fr1MmWUlfABc4EsA.woff2?h=14f0e54538e9712e8f2dd0c207f76b4a) format('woff2');
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+    unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116
+}
+
+@font-face {
+    font-family: Roboto;
+    src: url(/assets/fonts/KFOlCnqEu92Fr1MmWUlfCBc4EsA.woff2?h=14f0e54538e9712e8f2dd0c207f76b4a) format('woff2');
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+    unicode-range: U+1F00-1FFF
+}
+
+@font-face {
+    font-family: Roboto;
+    src: url(/assets/fonts/KFOlCnqEu92Fr1MmWUlfBxc4EsA.woff2?h=14f0e54538e9712e8f2dd0c207f76b4a) format('woff2');
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+    unicode-range: U+0370-03FF
+}
+
+@font-face {
+    font-family: Roboto;
+    src: url(/assets/fonts/KFOlCnqEu92Fr1MmWUlfCxc4EsA.woff2?h=14f0e54538e9712e8f2dd0c207f76b4a) format('woff2');
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+    unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB
+}
+
+@font-face {
+    font-family: Roboto;
+    src: url(/assets/fonts/KFOlCnqEu92Fr1MmWUlfChc4EsA.woff2?h=14f0e54538e9712e8f2dd0c207f76b4a) format('woff2');
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+    unicode-range: U+0100-02AF, U+0304, U+0308, U+0329, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF
+}
+
+@font-face {
+    font-family: Roboto;
+    src: url(/assets/fonts/KFOlCnqEu92Fr1MmWUlfBBc4.woff2?h=14f0e54538e9712e8f2dd0c207f76b4a) format('woff2');
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD
+}
+
+.filtr-item {
+    padding-top: 30px
+}
+
+.filtr-controls span {
+    cursor: pointer
+}
+
+.filtr-controls span:after {
+    content: ' ';
+    width: 0;
+    height: 1px;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    background: 0 0;
+    -webkit-transition: .6s;
+    transition: .6s
+}
+
+.filtr-controls span.active:after {
+    width: 100%;
+    left: 0;
+    background: #000
+}
+
+.filtr-loading {
+    border: 5px solid #333;
+    position: relative;
+    border-radius: 40px;
+    height: 40px;
+    left: 50%;
+    margin: 80px 0;
+    opacity: 0;
+    top: 0;
+    width: 40px;
+    z-index: 2;
+    -webkit-animation: 1s ease-out infinite pulsate;
+    animation: 1s ease-out infinite pulsate
+}
+
+.wrapper-numbers {
+    color: #fff;
+    background: #141e30;
+    background: -webkit-linear-gradient(to right, #243b55, #141e30);
+    background: linear-gradient(to right, #3d5b7d, #141e30);
+    padding: 60px 0 45px;
+    text-align: center;
+    font-size: 16px;
+    overflow: hidden
+}
+
+.wrapper-numbers h1,
+.wrapper-numbers h2,
+.wrapper-numbers h3,
+.wrapper-numbers h4 {
+    margin: 0 0 15px;
+    color: #fff
+}
+
+.newsblock-title-under {
+    padding-top: 18px;
+    padding-bottom: 2px;
+    color: #fa005e;
+    font-family: 'Raleway Dots', cursive;
+    font-size: 28px;
+    font-weight: 700
+}
+
+p {
+    color: #3c4857;
+    margin-top: 0;
+    margin-bottom: 1rem
+}
+
+span {
+    font-style: inherit;
+    font-weight: inherit
+}
+
+* {
+    font-family: Inter;
+}
+
+.navigation-clean-button .action-button:active,
+.navigation-clean-search .action-button {
+    background: #56c6c6;
+    border-radius: 20px;
+    font-size: inherit;
+    color: #fff !important;
+    box-shadow: none;
+    border: none;
+    text-shadow: none;
+    padding: 8px 20px;
+    transition: background-color .25s
+}
+
+.navigation-clean-button {
+    background: #222;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: #f2f5f8;
+    border-radius: 0;
+    box-shadow: none;
+    border: none;
+    margin-bottom: 0
+}
+
+@media (max-width:767px) {
+    .navigation-clean-button {
+        padding-top: 0;
+        padding-bottom: 0
+    }
+}
+
+.navigation-clean-button .navbar-brand {
+    font-weight: 700;
+    color: inherit
+}
+
+.navigation-clean-button .navbar-brand:hover {
+    color: rgb(255, 18, 18)
+}
+
+.navigation-clean-button .navbar-collapse,
+.navigation-clean-button .navbar-form {
+    border-top-color: #ddd
+}
+
+.navigation-clean-button.navbar .navbar-nav>li>a {
+    padding-left: 18px;
+    padding-right: 18px
+}
+
+.navigation-clean-button .navbar-nav>li>.dropdown-menu {
+    margin-top: -5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, .1);
+    background-color: #ede5e5;
+    border-radius: 2px
+}
+
+.navigation-clean-button .actions {
+    margin-top: 7px;
+    margin-bottom: 0
+}
+
+.navigation-clean-button .actions .login {
+    margin-right: 7px;
+    text-decoration: none;
+    color: #fff
+}
+
+.navigation-clean-button .action-button,
+.navigation-clean-button .action-button:active {
+    background: 0 0;
+    border-radius: 0;
+    color: #e04c40;
+    box-shadow: none;
+    border: 1px solid #e04c40;
+    text-shadow: none;
+    padding: 10px 22px;
+    transition: background-color .25s
+}
+
+.navigation-clean-button .action-button:hover {
+    background: #e04c40;
+    color: #fff;
+    font-weight: 400;
+    border: 1px solid #df4c40
+}
+
+.navbar {
+    margin-bottom: 0;
+    z-index: 1010
+}
+
+.btn {
+    border-radius: 0;
+    font-family: Roboto;
+    font-weight: 400
+}
+
+.btn.focus,
+.btn:focus,
+.btn:hover {
+    color: #fff;
+    text-decoration: none;
+    background-color: #ce1212;
+    border: none
+}
+
+#myFooter {
+    background-color: #3c3d41;
+    color: #fff;
+    padding-top: 30px
+}
+
+#myFooter .footer-copyright {
+    background-color: #333;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    text-align: center
+}
+
+#myFooter .row {
+    /* margin-bottom: 10px */
+}
+
+#myFooter .footer-copyright p {
+    margin: 10px;
+    color: #ccc
+}
+
+#myFooter ul {
+    list-style-type: none;
+    padding-left: 0;
+    line-height: 1.7
+}
+
+#myFooter h5 {
+    font-size: 18px;
+    color: #fff;
+    font-weight: 700;
+    margin-top: 30px
+}
+
+#myFooter a {
+    color: #d2d1d1;
+    text-decoration: none
+}
+
+#myFooter a:focus,
+#myFooter a:hover {
+    text-decoration: none;
+    color: #fff
+}
+
+#myFooter .social-networks {
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 16px
+}
+
+#myFooter .social-networks a {
+    font-size: 32px;
+    color: #f9f9f9;
+    padding: 10px;
+    transition: .2s
+}
+
+#myFooter .social-networks a:hover {
+    text-decoration: none
+}
+
+#myFooter .facebook:hover {
+    color: #0077e2
+}
+
+#myFooter .google:hover {
+    color: #ef1a1a
+}
+
+#myFooter .twitter:hover {
+    color: #00aced
+}
+
+#myFooter .linkedin:hover {
+    color: #007bb6
+}
+
+#myFooter .btn {
+    color: #fff;
+    background-color: #d84b6b;
+    border-radius: 20px;
+    border: none;
+    width: 150px;
+    display: block;
+    margin: 10px auto 0;
+    line-height: 25px
+}
+
+@media screen and (max-width:767px) {
+    #myFooter {
+        text-align: center
+    }
+}
+
+.bs-icon {
+    --bs-icon-size: .75rem;
+    display: flex;
+    flex-shrink: 0;
+    justify-content: center;
+    align-items: center;
+    font-size: var(--bs-icon-size);
+    width: calc(var(--bs-icon-size) * 2);
+    height: calc(var(--bs-icon-size) * 2);
+    color: var(--bs-primary)
+}
+
+.bs-icon-xs {
+    --bs-icon-size: 1rem;
+    width: calc(var(--bs-icon-size) * 1.5);
+    height: calc(var(--bs-icon-size) * 1.5)
+}
+
+.bs-icon-sm {
+    --bs-icon-size: 1rem
+}
+
+.bs-icon-md {
+    --bs-icon-size: 1.5rem
+}
+
+.bs-icon-lg {
+    --bs-icon-size: 2rem
+}
+
+.bs-icon-xl {
+    --bs-icon-size: 2.5rem
+}
+
+.bs-icon.bs-icon-primary {
+    color: var(--bs-white);
+    background: var(--bs-primary)
+}
+
+.bs-icon.bs-icon-primary-light {
+    color: var(--bs-primary);
+    background: rgba(var(--bs-primary-rgb), .2)
+}
+
+.bs-icon.bs-icon-semi-white {
+    color: var(--bs-primary);
+    background: rgba(255, 255, 255, .5)
+}
+
+.bs-icon.bs-icon-rounded {
+    border-radius: .5rem
+}
+
+.bs-icon.bs-icon-circle {
+    border-radius: 50%
+}
+
+.clearmargin {
+    margin: 0
+}
+
+.clearpadding {
+    padding: 0
+}
+
+.dh-highlight-text {
+    text-align: center;
+    padding: 30px
+}
+
+.float {
+    position: fixed;
+    width: 60px;
+    height: 60px;
+    bottom: 40px;
+    right: 40px;
+    background-color: #ff1212;
+    color: #fff;
+    font-size: 30px;
+    border-radius: 50px;
+    text-align: center;
+    box-shadow: 2px 2px 3px #999;
+    z-index: 1010
+}
+
+.my-float {
+    margin-top: 15px
+}
+
+.submit-now {
+    margin-top: 20px;
+    font-size: 16px;
+    width: 200px;
+    height: 50px;
+    background-color: #e74c3c;
+    border-color: transparent
+}
+
+.form-control.input {
+    border: 0;
+    background: 0 0;
+    border-bottom: 1px solid silver;
+    border-radius: 0 !important
+}
+
+.getintouch {
+    height: auto;
+    background-image: url("/assets/img/Get%20In%20touch/GetInTouch.png?h=9fddf1c07aa0986e9fcfde91ec0e48cc");
+    background-size: cover;
+    background-repeat: no-repeat
+}
+
+input[type=email],
+input[type=tel],
+input[type=text],
+textarea {
+    border-radius: 8px !important
+}
+
+.btn-primary:hover {
+    color: #fff;
+    background-color: #4daade;
+    border-color: #4daade;
+    box-shadow: 0 10px 15px rgba(157, 157, 157, .4)
+}
+
+.btn-primary:not(:disabled):not(.disabled).active,
+.btn-primary:not(:disabled):not(.disabled):active,
+.show>.btn-primary.dropdown-toggle {
+    color: #fff;
+    background-color: #4daade;
+    border-color: #4daade
+}
+
+.modern-form {
+    padding-top: 80px;
+    padding-bottom: 80px
+}
+
+.modern-form__hr {
+    border-color: #4daade;
+    border-width: 2px;
+    width: 121px
+}
+
+.modern-form__form-container {
+    padding-top: 100px
+}
+
+.modern-form__form-group--padding-r {
+    padding-right: 20px
+}
+
+.modern-form__form-group--padding-t {
+    padding-top: 50px
+}
+
+.modern-form__form-control--textarea {
+    height: 95px !important;
+    resize: none
+}

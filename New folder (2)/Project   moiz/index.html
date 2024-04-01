@@ -1,0 +1,584 @@
+<!DOCTYPE html>
+<html data-bs-theme="light" lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>bootstrap</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/simple-line-icons/2.4.1/css/simple-line-icons.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+    <link rel="stylesheet" href="/assets/css/styles.min.css?h=b57b9809696b3b8f8ba9642d1275f964">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.4.1/css/swiper.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+
+<body>
+
+<!-- Navigation bar using Bootstrap -->
+<nav class="navbar navbar-expand-md navbar-light">
+    <div class="container">
+        <!-- Brand logo with a subheading -->
+        <a class="navbar-brand ms-5" href="#">Leverage <sub style="color: orangered;">2.1</sub></a>
+
+
+     <!-- Navbar toggle button -->
+     <button class="navbar-toggler navbar-toggler-right border-0" type="button" data-toggle="collapse" data-target="#navbar13">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <!-- Navbar collapsible content -->
+      <div class="collapse navbar-collapse" id="navbar13">
+            <ul class="navbar-nav ml-auto">
+                <!-- Dropdown menu item -->
+                <li class="nav-item dropdown m-2">
+                    <a class="nav-link dropdown-toggle" href="#home" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Home
+                    </a>
+                    <!-- Dropdown menu content -->
+                    <ul class="dropdown-menu dropdown-menu-dark">
+                        <li><a class="dropdown-item" href="#">Action</a></li>
+                        <li><a class="dropdown-item" href="#">Another action</a></li>
+                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    </ul>
+                </li>
+
+                <!-- Other navigation menu items -->
+                <li class="nav-item m-2">
+                    <a class="nav-link" href="#services">Services</a>
+                </li>
+                <li class="nav-item m-2">
+                    <a class="nav-link" href="#about">About</a>
+                </li>
+                <li class="nav-item m-2">
+                    <a class="nav-link" href="#testimonial">Testimonials</a>
+                </li>
+
+                <!-- Icons section -->
+                <div class="nav-icons">
+                    <!-- Magnifying glass icon -->
+                    <i class="fa-solid fa-magnifying-glass m-1" style="color: #c2c9d6; font-size: 16px;"></i>
+                    <!-- Twitter icon -->
+                    <i class="fa-brands fa-twitter m-1" style="color: #3070df; font-size: 16px;"></i>
+                    <!-- Instagram icon -->
+                    <i class="fa-brands fa-instagram m-1" style="color: #94a1b8; font-size: 16px;"></i>
+                </div>
+
+                <!-- Contact button -->
+                <button class="btn border-dark col-md-4 col-sm-4 text-white" style="background-color: orangered;">
+                    <!-- Speech bubble icon -->
+                    <i class="icon-speech" style="margin-right: 9px; margin-bottom: 0px; color: var(--bs-btn-disabled-color); font-size: 26px; margin-left: 1px; padding: 2px;"></i>
+                    <!-- Button text -->
+                    <h5 class="nav-btn">CONTACT US</h5>
+                </button>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<!-- Add the necessary Bootstrap, Font Awesome, and other CSS/JS links below this -->
+
+
+<section id="home">
+    <div class="col-lg-12 container">
+        <!-- Carousel -->
+        <div id="myCarousel" class="carousel slide" data-ride="carousel">
+            <!-- Wrapper for slides -->
+            <div class="carousel-inner" style="position: relative;">
+                <!-- Slide 1 -->
+                <div class="item active">
+                    <img src="./assets/img/bg-1.jpg" alt="Los Angeles" style="width:100%;">
+                    <div class="carousel-caption">
+                        <div class="border-box">
+                            <h1>Let's Build something.</h1>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia obcaecati error praesentium dolores consectetur dolor, maxime illo reprehenderit magnam debitis.</p>
+                            <button>GET STARTED</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Slide 2 -->
+                <div class="item">
+                    <img src="./assets/img/bg-2.jpg" alt="Chicago" style="width:100%;">
+                    <div class="carousel-caption">
+                        <div class="border-box">
+                            <h1>Boost Your Creativity.</h1>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia obcaecati error praesentium dolores consectetur dolor, maxime illo reprehenderit magnam debitis.</p>
+                            <button>GET STARTED</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Slide 3 -->
+                <div class="item">
+                    <img src="./assets/img/bg-3.jpg" alt="New york" style="width:100%;">
+                    <div class="carousel-caption">
+                        <div class="border-box">
+                            <h1>Reach the Next Level.</h1>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia obcaecati error praesentium dolores consectetur dolor, maxime illo reprehenderit magnam debitis.</p>
+                            <button>GET STARTED</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Left and right controls -->
+            <a class="carousel-control w-0" href="#myCarousel" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control" style="margin-left: 85%;" href="#myCarousel" data-slide="next">
+                <span class="glyphicon glyphicon-chevron-right"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+    </div>
+</section>
+
+
+
+    <!-- Start: Simple Slider -->
+    <!-- Start: Carousel_Image_Slider -->
+<!-- End: Carousel_Image_Slider -->
+  <section style="background: #eeeeee;" >
+    <!-- Start: Features Cards -->
+    <div class="container py-4 py-xl-5" >
+        <div class="row mb-5" id="services">
+            <div class="col-md-8 col-xl-6 text-center mx-auto">
+                <h2>Our Services</h2>
+                <p class="w-lg-50"><br><span style="color: rgb(108, 117, 125);">Focused on results we seek to raise the level of our customers.</span><br><br></p>
+            </div>
+        </div>
+        <div>
+            <!-- Features Cards Grid -->
+            <div class="d-flex justify-content-center flex-wrap row gy-4 row-cols-1 row-cols-md-2 row-cols-xl-3 " style="color: #999999;margin-left: 0px;" >
+
+                <!-- Feature Card 1 -->
+                <div class="col-xl-3 offset-xl-0 b-bt" style=" border-left: orangered 8px solid;border-top: orangered 8px solid;">
+                    <div class="card col-sm-10 col-lg-12" data-bss-hover-animate="pulse" style="height: 225px;">
+                        <div class="card-body p-4" style="padding-left: 57px;">
+                            <div class="bs-icon-md bs-icon-rounded bs-icon-primary d-flex justify-content-center align-items-center d-inline-block mb-3 bs-icon" style="background: rgba(0,0,0,0);width: 100%;"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-globe" data-bss-hover-animate="flash" style="color: var(--bs-orange);font-size: 39px;margin-left: 0px;margin-right: 0px;">
+                                    <path d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm7.5-6.923c-.67.204-1.335.82-1.887 1.855A7.97 7.97 0 0 0 5.145 4H7.5V1.077zM4.09 4a9.267 9.267 0 0 1 .64-1.539 6.7 6.7 0 0 1 .597-.933A7.025 7.025 0 0 0 2.255 4H4.09zm-.582 3.5c.03-.877.138-1.718.312-2.5H1.674a6.958 6.958 0 0 0-.656 2.5h2.49zM4.847 5a12.5 12.5 0 0 0-.338 2.5H7.5V5H4.847zM8.5 5v2.5h2.99a12.495 12.495 0 0 0-.337-2.5H8.5zM4.51 8.5a12.5 12.5 0 0 0 .337 2.5H7.5V8.5H4.51zm3.99 0V11h2.653c.187-.765.306-1.608.338-2.5H8.5zM5.145 12c.138.386.295.744.468 1.068.552 1.035 1.218 1.65 1.887 1.855V12H5.145zm.182 2.472a6.696 6.696 0 0 1-.597-.933A9.268 9.268 0 0 1 4.09 12H2.255a7.024 7.024 0 0 0 3.072 2.472zM3.82 11a13.652 13.652 0 0 1-.312-2.5h-2.49c.062.89.291 1.733.656 2.5H3.82zm6.853 3.472A7.024 7.024 0 0 0 13.745 12H11.91a9.27 9.27 0 0 1-.64 1.539 6.688 6.688 0 0 1-.597.933zM8.5 12v2.923c.67-.204 1.335-.82 1.887-1.855.173-.324.33-.682.468-1.068H8.5zm3.68-1h2.146c.365-.767.594-1.61.656-2.5h-2.49a13.65 13.65 0 0 1-.312 2.5zm2.802-3.5a6.959 6.959 0 0 0-.656-2.5H12.18c.174.782.282 1.623.312 2.5h2.49zM11.27 2.461c.247.464.462.98.64 1.539h1.835a7.024 7.024 0 0 0-3.072-2.472c.218.284.418.598.597.933zM10.855 4a7.966 7.966 0 0 0-.468-1.068C9.835 1.897 9.17 1.282 8.5 1.077V4h2.355z"></path>
+                                </svg></div>
+                            <h4 class="card-title">Website Pro</h4>
+                            <p class="card-text" style="color: #999999;">We build professional responsive websites optimized for the most popular search engines.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Feature Card 2 -->
+                <div class="col-xl-3 offset-xl-0">
+                    <div class="card col-sm-10 col-lg-12" style="margin-bottom: 0px;padding-bottom: 0px;height: 230px;">
+                        <div class="card-body p-4">
+                            <div class="bs-icon-md bs-icon-rounded bs-icon-primary d-flex justify-content-center align-items-center d-inline-block mb-3 bs-icon" style="background: rgba(0,0,0,0);width: 100%;"><i class="icon-basket" style="color: var(--bs-orange);font-size: 37px;"></i></div>
+                            <h4 class="card-title">E-Commerce</h4>
+                            <p class="card-text" style="color: #999999;">Increase your sales with an incredible online store, full of features and functionality.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Feature Card 3 -->
+                <div class="col-xl-3">
+                    <div class="card col-sm-10 col-lg-12" style="margin-bottom: 1px; height: 230px;">
+                        <div class="card-body p-4" data-bss-parallax-bg="true">
+                            <div class="bs-icon-md bs-icon-rounded bs-icon-primary d-flex justify-content-center align-items-center d-inline-block mb-3 bs-icon" style="background: rgba(0,0,0,0);width: 100%;"><i class="icon-screen-smartphone" style="color: var(--bs-orange);font-size: 37px;"></i></div>
+                            <h4 class="card-title">Mobile Apps</h4>
+                            <p class="card-text" style="color: #999999;">Follow the global trend and create your revolutionary mobile app built with the the best technologies.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- End of First Row of Features Cards -->
+
+            <!-- Features Cards Grid - Second Row -->
+            <div class="d-flex justify-content-center flex-wrap row gy-4 row-cols-1 row-cols-md-2 row-cols-xl-3" style="margin-left: 0px;">
+                <!-- Feature Card 4 -->
+                <div class="col-xl-3 offset-xl-0">
+                    <div class="card col-sm-10 col-lg-12" style="margin-top: 19px;height: 230px;">
+                        <div class="card-body p-4" style="padding-left: 57px;">
+                            <div class="bs-icon-md bs-icon-rounded bs-icon-primary d-flex justify-content-center align-items-center d-inline-block mb-3 bs-icon" style="background: rgba(0,0,0,0);width: 100%;"><i class="icon-layers" style="color: var(--bs-orange);font-size: 34px;"></i></div>
+                            <h4 class="card-title">Web Application</h4>
+                            <p class="card-text" style="color: #999999;">We build applications for different purposes using technologies that allow you more security.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Feature Card 5 -->
+                <div class="col-xl-3">
+                    <div class="card col-sm-10 col-lg-12" style="margin-top: 20px;height: 230px;">
+                        <div class="card-body p-4">
+                            <div class="bs-icon-md bs-icon-rounded bs-icon-primary d-flex justify-content-center align-items-center d-inline-block mb-3 bs-icon" style="background: rgba(0,0,0,0);width: 100%;"><i class="icon-chart" style="color: var(--bs-orange);font-size: 39px;"></i></div>
+                            <h4 class="card-title">Digital Marketing</h4>
+                            <p class="card-text" style="color: #999999;">We work to promote your brand in partnership with the best marketing platforms today.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Feature Card 6 -->
+                <div class="col-xl-3 b-bt" style="border-bottom: #ff4500 8px solid;border-right: #ff4500 8px solid;">
+                    <div class="card col-lg-12 col-sm-10" style="margin-top: 20px;height: 230px;">
+                        <div class="card-body p-4">
+                            <div class="bs-icon-md bs-icon-rounded bs-icon-primary d-flex justify-content-center align-items-center d-inline-block mb-3 bs-icon" style="background: rgba(0,0,0,0);width: 100%;"><i class="icon-bulb" style="color: var(--bs-orange);font-size: 38px;"></i></div>
+                            <h4 class="card-title">Brand Creation</h4>
+                            <p class="card-text" style="color: #999999;">We create your brand thinking about your target audience using design techniques.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- End of Second Row of Features Cards -->
+        </div>
+    </div><!-- End: Features Cards -->
+</section>
+
+
+
+<section style="background: #e5e5e5;" id="about">
+    <!-- Start: 1 Row 2 Columns -->
+    <div class="container" style="margin-bottom: 71px;">
+        <div class="row">
+            <!-- Left Column -->
+            <div class="col-md-11 col-lg-12 col-xl-6" style="text-align: left;margin-top: 28px;">
+                <!-- Section Title -->
+                <hr style="background: var(--bs-orange);width: 70px;height: 8px;opacity: 5;">
+                <h1>About Us&nbsp;</h1>
+                <!-- Description -->
+                <p style="color: #999999;margin-bottom: 23px;margin-top: 11px;">For over 8 years we have been developing digital solutions for the companies looking to gain better visibility on the internet.</p>
+                <!-- First Feature -->
+                <div class="text-dark border rounded border-0 border-light d-flex align-items-end align-content-end flex-lg-row align-items-xl-start p-4 p-md-5" style="width: 100%;padding-right: 384px;text-align: right;margin-right: 1px;transform: translate(0px);margin-bottom: 21px;">
+                    <i class="icon-badge" style="font-size: 46px;color: var(--bs-orange);margin-right: 20px;margin-bottom: 13px;"></i>
+                    <div class="pb-2 pb-lg-1" style="margin-left: 1px;margin-bottom: 0px;margin-top: -8px;">
+                        <h2 class="fw-bold mb-2" style="margin-left: 0px;padding-right: 0px;text-align: left;margin-right: 171px;">Quality</h2>
+                        <p class="mb-0" style="width: 80%;text-align: left;color: #999999;">Everything we do has the commitment of a well-trained and motivated team.</p>
+                    </div>
+                </div>
+                <!-- Second Feature -->
+                <div class="text-dark border rounded border-0 border-light d-flex align-items-end align-content-end flex-lg-row align-items-xl-start p-4 p-md-5" style="width: 100%;padding-right: 384px;text-align: right;margin-right: 1px;transform: translate(0px);margin-bottom: 37px;">
+                    <i class="icon-briefcase" style="font-size: 46px;color: var(--bs-orange);margin-right: 20px;margin-bottom: 13px;"></i>
+                    <div class="pb-2 pb-lg-1" style="margin-left: 1px;margin-bottom: 0px;margin-top: -8px;">
+                        <h2 class="fw-bold mb-2" style="margin-left: 0px;padding-right: 0px;text-align: left;margin-right: 171px;">Experience</h2>
+                        <p class="mb-0" style="width: 80%;text-align: left;color: #999999;">Focused on results, we seek to raise the level of our customers.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Right Column - Image -->
+            <div class="col-md-11 col-lg-9 col-xl-6">
+                <img width="541" class="mb-5 col-md-12 about-img col-sm-12" height="537" src="/assets/img/about-1.jpg?h=804fcd9f093753f3e1647696a26c6c63" style="margin-top: 33px;margin-left: 13px;">
+            </div>
+        </div>
+    </div>
+    <!-- End: 1 Row 2 Columns -->
+</section>
+
+
+
+
+    <!-- Start: 1 Row 2 Columns -->
+<!-- Section with class "institutional" and background color "#f3f4f7" -->
+<section class="institutional" style="background-color: #f3f4f7;">
+    <div class="container">
+        <div class="row">
+            <!-- Left Column - Image -->
+            <div class="col-md-11 col-lg-9 col-xl-6">
+                <img width="532" class="about-img col-sm-12 mt-4 mb-4" height="510" src="/assets/img/about-2.jpg?h=6819e2d15ddb3e1f0f25cd132cc2a2e0">
+            </div>
+            <!-- Right Column - Content -->
+            <div class="col-md-11 col-lg-12 col-xl-6" style="text-align: left;">
+                <!-- Horizontal line with orange background -->
+                <hr style="background: var(--bs-orange);width: 70px;height: 8px;text-align: end;opacity: 5;transform: translate(0px);padding-right: 8px;">
+                <!-- Section Title -->
+                <h1 style="transform: translate(0px);">Institutional</h1>
+                <!-- Description -->
+                <p style="color: #777777;transform: translate(0px);">Get to know a little of our history and the road we traveled that took us to the level we are today.</p>
+                <!-- First Feature -->
+                <div class="text-dark border rounded border-0 border-light d-flex align-items-end align-content-end flex-lg-row align-items-xl-start p-4 p-md-5" style="width: 100%;padding-right: 384px;text-align: right;margin-right: 1px;transform: translate(0px);margin-bottom: 18px;">
+                    <!-- Icon for "Tradition" feature -->
+                    <i class="icon-trophy" style="font-size: 46px;color: var(--bs-orange);margin-right: 20px;margin-bottom: 13px;"></i>
+                    <div class="pb-2 pb-lg-1" style="margin-left: 1px;margin-bottom: 0px;margin-top: -8px;">
+                        <!-- Title for "Tradition" feature -->
+                        <h2 class="fw-bold mb-2" style="margin-left: 0px;padding-right: 0px;text-align: left;margin-right: 171px;">Tradition</h2>
+                        <!-- Description for "Tradition" feature -->
+                        <p class="mb-0" style="text-align: left;color: #999999;">We are excellence in developing web solutions for companies.</p>
+                    </div>
+                </div>
+                <!-- Second Feature -->
+                <div class="text-dark border rounded border-0 border-light d-flex align-items-end align-content-end flex-lg-row align-items-xl-start p-4 p-md-5" style="width: 100%;padding-right: 384px;text-align: right;margin-right: 1px;transform: translate(0px);">
+                    <!-- Icon for "Innovation" feature -->
+                    <i class="icon-diamond" style="font-size: 46px;color: var(--bs-orange);margin-right: 20px;margin-bottom: 13px;"></i>
+                    <div class="pb-2 pb-lg-1" style="margin-left: 1px;margin-bottom: 0px;margin-top: -8px;">
+                        <!-- Title for "Innovation" feature -->
+                        <h2 class="fw-bold mb-2" style="margin-left: 0px;padding-right: 0px;text-align: left;margin-right: 171px;">Innovation</h2>
+                        <!-- Description for "Innovation" feature -->
+                        <p class="mb-0" style="text-align: left;color: #999999;">We seek to build something that changes people's lives.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+   <!-- End: 1 Row 2 Columns -->
+    <!-- Start: Testimonials Centered -->
+    <section class="testimonial" id="testimonial">
+        <div class="py-4 py-xl-5 ">
+            <div class="row mb-5">
+                <div class="col-md-8 col-xl-6 text-center mx-auto">
+                    <h1>Customer Testimonials</h1>
+                    <p style="color: #6f6f6f;">Our customers are satisfied with the work we do. The greatest gratification is to receive recognition for what we have built. This motivates us to improve even more.</p>
+                </div>
+                <div class="slider-container">
+                    <div class="slider">
+                        <div class="slides">
+                            <!-- Slide 1 -->
+                            <div class="slide">
+                                <!-- Card 1 -->
+                                <div class="profile-card col-sm-4" style="margin-left: 3%;">
+                                    <img src="./assets/img/team-1.jpg" class="rounded-circle" alt="Profile 1">
+                                    <h5 class="card-title">Adams Baker</h5>
+                                    <p class="card-text">Lorem ipsum, dolor sit amet consectetur.</p>
+                                    <div class="stars">
+                                        <i class="fas fa-star star"></i>
+                                        <i class="fas fa-star star"></i>
+                                        <i class="fas fa-star star"></i>
+                                        <i class="fas fa-star star"></i>
+                                        <i class="far fa-star star"></i>
+                                    </div>
+                                </div>
+                                <!-- Card 2 -->
+                                <div class="profile-card col-sm-4">
+                                    <img src="./assets/img/team-2.jpg" class="rounded-circle" alt="Profile 2">
+                                    <h5 class="card-title">Mary Evans</h5>
+                                    <p class="card-text">Lorem ipsum, dolor sit amet consectetur.</p>
+                                    <div class="stars">
+                                        <i class="fas fa-star star"></i>
+                                        <i class="fas fa-star star"></i>
+                                        <i class="fas fa-star star"></i>
+                                        <i class="far fa-star star"></i>
+                                        <i class="far fa-star star"></i>
+                                    </div>
+                                </div>
+                                <!-- Card 3 -->
+                                <div class="profile-card col-sm-4">
+                                    <img src="./assets/img/team-3.jpg" class="rounded-circle" alt="Profile 3">
+                                    <h5 class="card-title">Sarah Lopez</h5>
+                                    <p class="card-text">Lorem ipsum, dolor sit amet consectetur.</p>
+                                    <div class="stars">
+                                        <i class="fas fa-star star"></i>
+                                        <i class="fas fa-star star"></i>
+                                        <i class="far fa-star star"></i>
+                                        <i class="far fa-star star"></i>
+                                        <i class="far fa-star star"></i>
+                                    </div>
+                                </div>
+                                <!-- Card 4 -->
+                                <div class="profile-card col-sm-4">
+                                    <img src="./assets/img/team-4.jpg" class="rounded-circle" alt="Profile 4">
+                                    <h5 class="card-title">Joseph Hills</h5>
+                                    <p class="card-text">Lorem ipsum, dolor sit amet consectetur.</p>
+                                    <div class="stars">
+                                        <i class="fas fa-star star"></i>
+                                        <i class="far fa-star star"></i>
+                                        <i class="far fa-star star"></i>
+                                        <i class="far fa-star star"></i>
+                                        <i class="far fa-star star"></i>
+                                    </div>
+                                </div>
+                                <!-- Card 5 -->
+                                <div class="profile-card col-sm-4">
+                                    <img src="./assets/img/team-5.jpg" class="rounded-circle" alt="Profile 5">
+                                    <h5 class="card-title">Karen Usman</h5>
+                                    <p class="card-text">Lorem ipsum, dolor sit amet consectetur.</p>
+                                    <div class="stars">
+                                        <i class="fas fa-star star"></i>
+                                        <i class="fas fa-star star"></i>
+                                        <i class="fas fa-star star"></i>
+                                        <i class="fas fa-star star"></i>
+                                        <i class="fas fa-star star"></i>
+                                    </div>
+                                </div>
+                                <div class="profile-card col-sm-4">
+                                    <img src="./assets/img/team-2.jpg " class="rounded-circle" alt="Profile 6">
+                                    <h5 class="card-title">Carrie Hun</h5>
+                                    <p class="card-text">Lorem ipsum, dolor sit amet consectetur.</p>
+                                    <div class="stars">
+                                        <i class="fas fa-star star"></i>
+                                        <i class="fas fa-star star"></i>
+                                        <i class="far fa-star star"></i>
+                                        <i class="far fa-star star"></i>
+                                        <i class="far fa-star star"></i>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <!-- Add more cards for Slide 2 -->
+                        </div>
+                    </div>
+                    <div class="slider-controls">
+                        <button class="prev">Previous</button>
+                        <button class="next">Next</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Start: Newsletter Subscription Centered -->
+         <!-- Section with class "newsletter-subscribe news py-4 py-xl-5" -->
+<section class="newsletter-subscribe news py-4 py-xl-5">
+    <div class="container">
+        <div class="row mb-2">
+            <div class="col-md-8 col-xl-6 text-center mx-auto">
+                <!-- Section Title -->
+                <h2 class="display-6 fw-bold">Newsletter</h2>
+                <!-- Description -->
+                <p class="text-muted">Subscribe to our newsletter and follow our content closely. Receive news based on what has to do with you. We promise not to send promotions you don't like.</p>
+            </div>
+        </div>
+        <!-- Newsletter Subscribe Form -->
+        <form class="d-flex justify-content-center flex-wrap" method="post">
+            <div class="mb-3 d-flex form justify-content-center">
+                <!-- Name Input -->
+                <form style="display: flex;justify-content: center;">
+                    <input class="form-control ms-3" type="email" placeholder="Name" style="width: 270px;margin-left: -1px;margin-right: 40px;">
+                    <!-- Email Input -->
+                    <input class="form-control ms-2" type="email" name="email" placeholder="Your Email" style="width: 270px;margin-right: 33px;">
+                    <!-- Subscribe Button -->
+                    <button class="btn btn-primary ms-2" type="submit" style="border-radius: 0px;padding-right: 28px;padding-left: 27px;background: #ff4500;">SUBSCRIBE</button>
+                </form>
+            </div>
+        </form>
+    </div>
+</section>
+<!-- End: Newsletter Subscription Centered -->
+
+        </div><!-- End: Testimonials Centered -->
+    </section>
+
+    <!-- Start: 1 Row 2 Columns -->
+    <section>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 col-sm-12" style="text-align: left;">
+                    <!-- Horizontal Line -->
+                    <hr style="background: var(--bs-orange);width: 70px;height: 8px;opacity: 5;">
+                    <!-- Section Title -->
+                    <h1>Let's Talk?</h1>
+                    <!-- Description -->
+                    <p style="color: #999999;">Don't wait until tomorrow. Talk to one of our consultants today and learn how to start leveraging your business.</p>
+                    <!-- Start: Steps Progressbar -->
+                    <div class="steps-progressbar" style="margin-left: 70px;">
+                        <ul style="margin-left: -90px;">
+                            <!-- Step 1 -->
+                            <li class="previous" style="margin-left: 0px;margin-right: -2px;">Personal Details</li>
+                            <!-- Step 2 (Active) -->
+                            <li class="active">Company Budget</li>
+                            <!-- Step 3 -->
+                            <li>Service Setup</li>
+                        </ul>
+                    </div>
+                    <!-- End: Steps Progressbar -->
+                    <!-- Email Input -->
+                    <input type="text" placeholder="Email" style="width: 90%;padding-top: 0px;margin-bottom: 16px;" required="">
+                    <!-- Name Input -->
+                    <input type="text" placeholder="Name" style="width: 90%;padding-top: 0px;margin-bottom: 16px;" required="">
+                    <!-- Phone Input -->
+                    <input type="text" placeholder="Phone" style="width: 90%;padding-top: 0px;" required="">
+                    <!-- Next Button -->
+                    <button class="btn btn-primary" type="button" style="margin-top: 14px;background: #ff4500;">Next<i class="icon-arrow-right-circle" style="color: #f2f8fc;margin-right: 7px;font-size: 24px;"></i></button>
+                </div>
+                <div class="col-md-6">
+                    <!-- Image -->
+                    <img width="528" class="end-img mt-5 col-sm-12" height="448" src="/assets/img/about-3.jpg?h=9fb6bdc0f6efc6c1f6b52031f14c6066">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End: 1 Row 2 Columns -->
+    <!-- Start: footer-servitech -->
+    <footer>
+    <div class="footer-dark degra-azul" style="background: rgb(33,32,32);margin-top: 37px;height: 30px;">
+        <footer>
+            <div class="container">
+                <div class="row">
+                    <!-- Start: Services -->
+                    <div class="col-sm-4 col-md-6 item" style="font-family: Lato, sans-serif;text-align: left;">
+                        <h1>Leverage.</h1>
+                        <h3> </h3>
+                        <ul>
+                            <li></li>
+                        </ul>
+                        <p style="text-align: left;">Authentic and innovative. Built to the smallest detail with a focus on usability and performance.</p>
+                        <div class="icons"><i class=" icon-social-instagram" style="margin-right: 13px;margin-left: 35px;color: #ff4500;"></i><i class="icon-social-facebook" style="margin-right: 13px;margin-left: 12px;color: #ff4500;"></i><i class="icon-social-linkedin" style="margin-right: 13px;margin-left: 12px;color: #ff4500;"></i><i class="icon-social-twitter" style="margin-right: 13px;margin-left: 12px;color: #ff4500;"></i>
+                        </div>
+                    </div><!-- End: Services -->
+                    <!-- Start: About -->
+                    <div class="col-sm-4 col-md-3 item foot" style="font-family: Lato, sans-serif;text-align: start;">
+                        <h3 class="fs-4" style="margin-left: 21px;">Get in Touch</h3>
+                        <h3> </h3>
+                        <ul>
+                            <li style="margin-bottom: 13px;margin-left: 19px;"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-telephone espacio-ico-01" style="color: #ff4500;font-size: 31px;margin-left: 13px;margin-bottom: -3px;margin-top: -6px;">
+                                    <path d="M3.654 1.328a.678.678 0 0 0-1.015-.063L1.605 2.3c-.483.484-.661 1.169-.45 1.77a17.568 17.568 0 0 0 4.168 6.608 17.569 17.569 0 0 0 6.608 4.168c.601.211 1.286.033 1.77-.45l1.034-1.034a.678.678 0 0 0-.063-1.015l-2.307-1.794a.678.678 0 0 0-.58-.122l-2.19.547a1.745 1.745 0 0 1-1.657-.459L5.482 8.062a1.745 1.745 0 0 1-.46-1.657l.548-2.19a.678.678 0 0 0-.122-.58L3.654 1.328zM1.884.511a1.745 1.745 0 0 1 2.612.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z"></path>
+                                </svg><a href="#" style="margin-right: 38px;padding-top: 0px;margin-top: 0px;margin-bottom: 1px;">+1 123 98765 4321</a></li>
+                            <li style="margin-bottom: 13px;margin-left: 19px;"><i class="icon-envelope espacio-ico-01" style="color: #ff4500;font-size: 20px;margin-left: 13px;margin-bottom: -3px;margin-top: -6px;"></i><a href="#" style="margin-right: 38px;padding-top: 0px;margin-top: 0px;margin-bottom: 1px;">hello@gmail.com</a></li>
+                            <li style="margin-bottom: 13px;margin-left: 19px;"><i class="icon-location-pin espacio-ico-01" style="color: #ff4500;font-size: 21px;margin-left: 13px;margin-bottom: -3px;margin-top: -6px;"></i><a href="#" style="margin-right: 38px;padding-top: 0px;margin-top: 0px;margin-bottom: 1px;">Office Street, 123</a></li>
+                        </ul><button class="btn text-white f-btn" type="button" style="background: rgba(0,0,0,0);border-style: solid;border-color: #ff4500;margin-left: 19px;"><i class="icon-speech" style="font-size: 25px;margin-right: 9px;"></i>SEND A MESSAGE</button>
+                    </div><!-- End: About -->
+                    <!-- Start: Services -->
+                    <div class="col-sm-4 services item" style="font-family: Lato, sans-serif;text-align: justify;">
+                        <h3 class="fs-4">Services</h3><!-- Start: separa-imagen-naranja -->
+                        <h3> </h3><!-- End: separa-imagen-naranja -->
+                        <ul>
+                            <li><a href="#">Website Development</a></li>
+                            <li><a href="#">Building Applications</a></li>
+                            <li><a href="#">SEO &amp; Digital Marketing</a></li>
+                            <li><a href="#">Branding and Identity</a></li>
+                            <li><a href="#">Digital Images &amp; Videos</a></li>
+                            <li></li>
+                        </ul>
+                    </div><!-- End: Services -->
+                    <!-- Start: Services -->
+                    <div class="col-sm-4 col-md-12 item tags" style="font-family: Lato, sans-serif;text-align: left;">
+                        <h3 class="fs-4">Popular Tags</h3><button style="background: rgb(0,0,0);border-color: #dd6019;padding-top: 8px;padding-bottom: 7px;padding-right: 11px;padding-left: 10px;margin-top: 11px;margin-right: 9px;margin-bottom: 2px;">Mobile</button><button style="background: rgb(0,0,0);border-color: #dd6019;padding-top: 8px;padding-bottom: 7px;padding-right: 11px;padding-left: 10px;margin-top: 11px;margin-right: 0px;margin-bottom: 1px;">Development</button><button style="background: rgb(0,0,0);border-color: #dd6019;padding-top: 8px;padding-bottom: 7px;padding-right: 11px;padding-left: 10px;margin-top: 11px;margin-bottom: 0px;margin-right: 8px;">Technology</button><button  style="background: rgb(0,0,0);border-color: #dd6019;padding-top: 8px;padding-bottom: 7px;padding-right: 11px;padding-left: 10px;margin-top: 11px;margin-bottom: 1px;margin-right: 7px;">App</button><button  style="background: rgb(0,0,0);border-color: #dd6019;padding-top: 8px;padding-bottom: 7px;padding-right: 11px;padding-left: 10px;margin-top: 11px;margin-bottom: 1px;margin-right: 6px;">Education</button><button style="background: rgb(0,0,0);border-color: #dd6019;padding-top: 8px;padding-bottom: 7px;padding-right: 11px;padding-left: 10px;margin-top: 11px;margin-bottom: 1px;margin-right: 8px;">Business</button><button  style="background: rgb(0,0,0);border-color: #dd6019;padding-top: 8px;padding-right: 11px;padding-left: 10px;margin-bottom: 11px;margin-top: 5px;padding-bottom: 7px;margin-right: 7px;">Health</button><button  style="background: rgb(0,0,0);border-color: #dd6019;padding-top: 8px;padding-right: 11px;padding-left: 10px;margin-bottom: 11px;margin-top: 5px;padding-bottom: 7px;margin-right: 7px;">Industry</button>
+                    </div><!-- End: Services -->
+                </div>
+            </div>
+        </footer>
+        <div class="end" style="display: flex;justify-content: space-around;background: #000000;margin-top: 85px;">
+            <p style="color: #999999;margin-top: 19px;">Enjoy the low price. We are tracking any intention of policy.</p>
+            <p style="color: #999999;"><br><span style="font-weight: normal !important; color: rgb(232, 234, 237); background-color: rgb(32, 33, 36);">© 2023 Leverage is Proudly Powered by&nbsp;</span><span style="color: #ff4500;">Codings</span><span style="font-weight: normal !important; color: rgb(232, 234, 237); background-color: rgb(32, 33, 36);">.</span><br><br></p>
+        </div>
+    </div>
+</footer><!-- End: footer-servitech -->
+
+
+    <button id="backToTopBtn" class="btn" title="Back to Top">
+        <i class="fas fa-arrow-up" style="color: #ffffff;"></i>
+      </button>
+
+<!-- Remove this line, as it's the slim version of jQuery and might not support animate() -->
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+
+<!-- Keep only one version of jQuery, and use the standard version -->
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+<!-- Keep only one version of Bootstrap, and use version 5.0 or later -->
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
+
+<!-- Keep only one version of Swiper, and use version 3.4.1 -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.4.1/js/swiper.min.js"></script>
+
+<!-- Keep your custom script, but make sure it's loaded after the required libraries -->
+<script src="./assets/js/script.js"></script>
+
+</body>
+
+</html>
